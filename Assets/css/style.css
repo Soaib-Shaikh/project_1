@@ -6,9 +6,9 @@
     /* outline: 1px solid red; */
 }
 
-/* body {
-    font-family: 'Open Sans';
-} */
+body {
+   font-family: 'Open Sans Condensed',sans-serif!important;   
+}
 
 .text-sucess {
     color:#87ba45!important;
@@ -39,9 +39,9 @@ a {
 .banner {
     background-image: url(../images/bg2.jpg);
     padding: 300px 0;
-    background-color: rgba(52, 61, 71, 0.8);
+    background-color: rgba(52, 61, 71, 0.9);
     background-repeat: no-repeat;
-    background-blend-mode:multiply;
+    background-blend-mode: multiply;
     background-size: cover;
 }
 
@@ -105,9 +105,10 @@ a {
     transition: all 0s ease-out 0s;
 }
 
-/* customer-section */
+.single-blog:hover {
+    box-shadow:0 12px 20px rgba(52, 61, 71, 0.7);
 
-
+}
 
 /* footer-section */
 
