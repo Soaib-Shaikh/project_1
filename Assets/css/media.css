@@ -6,8 +6,17 @@
         border-color: transparent;
         background: rgba(52, 61, 71, 0.8);
         transition: all 0.3s ease-in-out;
-        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+        box-shadow: 0  rgba(0, 0, 0, 0.1);
     }
 
+    .navbar .navbar-collapse {
+        background-color: rgba(52, 61, 71, 0.7);
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width:767px) {
     
 }
